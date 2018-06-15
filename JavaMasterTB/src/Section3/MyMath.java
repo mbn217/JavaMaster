@@ -1,0 +1,6 @@
+package Section3;
+
+public interface MyMath {
+	void add(int a, int b);
+	void subtract(int a, int b);
+}
