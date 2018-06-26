@@ -11,6 +11,7 @@ public class Vid68 {
 		
 		PC thePC = new PC(theCase, monitor, motherboard);
 		thePC.getMontior().drawPixelAt(1500, 2000, "Blue");
+		System.out.println(motherboard.toString());
 	
 	
 	

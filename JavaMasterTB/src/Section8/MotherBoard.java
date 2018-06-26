@@ -29,6 +29,11 @@ public class MotherBoard {
 	public String getBios() {
 		return bios;
 	}
+	@Override
+	public String toString() {
+		return "MotherBoard [model=" + model + ", manufacturer=" + manufacturer + ", ramSlots=" + ramSlots
+				+ ", cardSlots=" + cardSlots + ", bios=" + bios + "]";
+	}
 	
 	
 	
